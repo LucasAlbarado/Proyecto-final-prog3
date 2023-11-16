@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Navbar, Nav, Button } from 'react-bootstrap';
 import './Footer.css'
 import { FaFacebook, FaInstagram, FaTwitter, FaPhoneAlt, FaRegEnvelope, FaRegPaperPlane } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (

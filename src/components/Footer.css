@@ -3,6 +3,10 @@
     text-align: center;
     background-color: #ec5853;
   }
+  .bottom-fixed {
+    position: fixed;
+    bottom: 0;
+  }
   .logo-footer{
     height: 80px;
     border: solid black 1px;
