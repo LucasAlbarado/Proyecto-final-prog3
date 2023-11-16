@@ -23,7 +23,7 @@ function NavBar() {
                   <a to="/menu" className='nav-links'>Menu</a>
               </Nav.Link>
               <Nav.Link >
-                  <a to="/cart" className='nav-links'>Carrito</a>
+                  <a to="/Error404" className='nav-links'>Carrito</a>
               </Nav.Link>
             <NavDropdown title="Tu cuenta" id="basic-nav-dropdown">
                   <NavDropdown.Item > 
