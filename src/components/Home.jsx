@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import Barralateral from "./Barralateral"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
+
 
 function Home() {
   return (
@@ -14,7 +16,9 @@ function Home() {
       <aside className="sidebar">Barra Lateral
         <Barralateral/>
       </aside>
-      <footer className="footer">Pie de Página</footer>
+      <footer className="footer p-1">
+      <Footer/>
+      </footer>
     </div>
   );
 }
